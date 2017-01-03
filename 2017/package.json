@@ -1,0 +1,24 @@
+{
+  "name": "kakizome_2017",
+  "version": "1.0.0",
+  "description": "KAKIZOME program of 2017.",
+  "main": "program.ts",
+  "scripts": {
+    "start": "npm run build && node program.js",
+    "build": "tsc program.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmaiSaeta/kakizome.git"
+  },
+  "author": "AmaiSaeta",
+  "license": "SEE LICENSE IN LICENSE file",
+  "bugs": {
+    "url": "https://github.com/AmaiSaeta/kakizome/issues"
+  },
+  "homepage": "https://github.com/AmaiSaeta/kakizome#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.55",
+    "typescript": "^2.1.4"
+  }
+}
